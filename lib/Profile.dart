@@ -117,7 +117,7 @@ class _ProfileState extends State<Profile> {
                   height: 48,
                   child: ElevatedButton(
                     onPressed: () {
-                      _launchUrl(linkedInUrl);
+                      _launchUrl(emailUrl);
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: const Color(0xFF7D79FD),
@@ -140,7 +140,7 @@ class _ProfileState extends State<Profile> {
                   height: 48,
                   child: OutlinedButton(
                     onPressed: () {
-                      _launchUrl(emailUrl);
+                      _launchUrl(linkedInUrl);
                     },
                     style: OutlinedButton.styleFrom(
                       side: const BorderSide(
