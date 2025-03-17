@@ -51,8 +51,7 @@ class _ProfileState extends State<Profile> {
               decoration: const BoxDecoration(
                 shape: BoxShape.circle,
                 image: DecorationImage(
-                  image: NetworkImage(
-                      'https://s2.ezgif.com/tmp/ezgif-246e3f64b8db56.webp'),
+                  image: AssetImage('assets/images/Kimsreng.JPG'),
                   fit: BoxFit.fitWidth,
                 ),
               ),
