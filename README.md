@@ -16,4 +16,4 @@ This project is a starting point for a Flutter application.
 
 ## The UI
 
-![alt text](readme.png)
+![readme](https://github.com/user-attachments/assets/48b1455a-f651-47d0-923a-3775e980be21)
