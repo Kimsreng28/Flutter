@@ -3,11 +3,13 @@ import 'package:flutter/material.dart';
 class CustomTextfield extends StatefulWidget {
   final String hintText;
   final bool obscureText;
+  final TextEditingController? controller;
 
   const CustomTextfield({
     super.key,
     required this.hintText,
     required this.obscureText,
+    required this.controller,
   });
 
   @override
@@ -28,6 +30,7 @@ class _CustomTextfieldState extends State<CustomTextfield> {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
       child: TextField(
+        controller: widget.controller,
         style: const TextStyle(
             fontSize: 16, fontWeight: FontWeight.w400, fontFamily: "Lato"),
         obscureText: _isObscured,
