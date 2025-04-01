@@ -20,7 +20,7 @@ class _HomeState extends State<Home> {
           children: [
             const Center(
               child: Text(
-                'Hello HAIKIMSRENG, Welcome!',
+                'Hello HAI KIMSRENG, Welcome!',
                 style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
