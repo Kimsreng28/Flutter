@@ -98,6 +98,7 @@ class _LogInState extends State<LogIn> {
               const SizedBox(height: 5),
               Center(
                 child: CustomButton(
+                  iconPath: 'assets/icons/icons8-google.svg',
                   text: 'Login with Google',
                   color: const Color.fromARGB(255, 255, 255, 255),
                   onPressed: () {},
