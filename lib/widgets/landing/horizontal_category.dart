@@ -18,7 +18,6 @@ class HorizontalCategory extends StatelessWidget {
       height: 50,
       child: SingleChildScrollView(
         scrollDirection: Axis.horizontal,
-        padding: const EdgeInsets.symmetric(horizontal: 16),
         child: Row(
           children: List.generate(categories.length, (index) {
             final isSelected = index == selectedIndex;
