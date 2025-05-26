@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:worktency/screens/auth/login_screen.dart';
 import 'package:worktency/screens/category_screen.dart';
 import 'package:worktency/screens/landing_screen.dart';
 import 'package:worktency/screens/my_course_screen.dart';
@@ -39,6 +40,7 @@ class MyApp extends StatelessWidget {
       onGenerateRoute: (settings) {
         switch (settings.name) {
           case '/':
+            return _createRoute(const LoginScreen());
           case '/explore':
             return _createRoute(const LandingScreen());
           case '/search':
