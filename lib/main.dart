@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quick_note/screen/get_start_screen.dart';
 import 'package:quick_note/screen/landing_screen.dart';
 import 'package:quick_note/screen/quick_note_screen.dart';
 import 'package:quick_note/screen/sign_up_screen.dart';
@@ -38,6 +39,8 @@ class MyApp extends StatelessWidget {
       onGenerateRoute: (settings) {
         switch (settings.name) {
           case '/':
+            return _createRoute(const GetStartScreen());
+          case '/landing':
             return _createRoute(const LandingScreen());
           case '/signUp':
             return _createRoute(const SignUpScreen());
